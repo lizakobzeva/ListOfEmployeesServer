@@ -1,0 +1,19 @@
+{
+  "name": "blogjsonapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "json-server-auth db.json -H 0.0.0.0 -p 10001 "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "0": "^0.0.0",
+    "cors": "^2.8.5",
+    "json-server": "^0.17.4",
+    "json-server-auth": "^2.1.0"
+  }
+}
